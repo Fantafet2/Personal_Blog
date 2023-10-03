@@ -1,0 +1,514 @@
+
+body {
+    background: linear-gradient(-45deg,#1B236D, #161B49,
+    #232434, #33656C, #2F5C62, #232434, #161B49, #1B236D);
+    background-size: 400% 400%;
+    animation: gradient 25s ease infinite;
+	height: 100vh;
+}
+
+.pagetitle{
+  text-decoration: none;
+    font-family: bignoodletitling;
+    color: #fff;
+    letter-spacing: 4px;
+    font-size: 20px;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+.page-header
+{
+    height: 100px;
+    background: #262626;
+    width: 100%;
+    z-index: 12;
+    position: sticky;
+}
+
+.wrapper
+{
+    width: 1170px;
+    margin: auto;
+}
+
+#toggle:checked ~ .wrapper
+{
+    pointer-events: none;
+    top: 40%;
+    opacity: 0;
+}
+
+nav
+{
+    float: right;
+    line-height: 50px;
+}
+
+
+nav a 
+{
+    text-decoration: none;
+    font-family: bignoodletitling;
+    color: #fff;
+    letter-spacing: 4px;
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+nav a:hover
+{
+    color: #176C90;
+}
+
+nav .animation
+{
+    position: absolute;
+    height: 5px;
+    bottom: 20;
+    z-index: 0;
+    background: #176C90;
+    border-radius: 8px;
+    transition: all .5s ease 0;
+}
+
+
+.logo{
+    float: left;
+    display: flex;
+    position: absolute;
+
+    height: 80px;
+    width: 80px;
+
+    top: 15px;
+    left: 15px;
+}
+
+.logo_img{
+    overflow: hidden;
+    height: 50px;
+    top: 60px;
+}
+
+.bookoverveiw{
+    left: 5%;
+    position: relative;
+    width: 90%;
+    
+    margin: 15px;
+    padding: 5px;
+
+    background-color: #bbba8a;
+    border-radius: 25px;
+}
+
+.chapt4{
+    left: 5%;
+    position: relative;
+    width: 45%;
+
+    padding: 5px;
+
+    background-color: #bbba8a;
+    border-radius: 25px;
+}
+
+.chapt5{
+    left: 50%;
+    position: relative;
+    width: 45%;
+
+    padding: 5px;
+
+    background-color: #bbba8a;
+    border-radius: 25px;
+}
+
+.chapt6{
+    left: 5%;
+    position: relative;
+    width: 45%;
+
+    padding: 5px;
+
+    background-color: #bbba8a;
+    border-radius: 25px;
+
+}
+
+.chapt7{
+    left: 50%;
+    position: relative;
+    width: 45%;
+
+    padding: 5px;
+
+    background-color: #bbba8a;
+    border-radius: 25px;
+}
+
+.reflect{
+    left: 5%;
+    position: relative;
+    width: 90%;
+    
+    margin: 15px;
+    padding: 5px;
+
+    background-color: #bbba8a;
+    border-radius: 25px;
+}
+
+table{
+    width: 90%;
+    left: 5%;
+    position: relative;
+}
+
+.aboutme{
+    background-color: #bbba8a;
+    border-radius: 25px;
+    padding: 5px;
+    margin: 15px;
+
+    width: 70%;
+    left: 15%;
+    position: relative;
+}
+
+.strongestTraits{
+    background-color: #bbba8a;
+    border-radius: 25px;
+    padding: 5px;
+    margin: 15px;
+
+    width: 45%;
+    left: 5%;
+    position: relative;
+}
+
+.strongestEmotion{
+    background-color: #bbba8a;
+    border-radius: 25px;
+    padding: 5px;
+    margin: 15px;
+
+    width: 45%;
+    left: 50%;
+    position: relative;
+}
+
+.hobby{
+    background-color: #bbba8a;
+    border-radius: 25px;
+    padding: 5px;
+    margin: 15px;
+
+    width: 45%;
+    left: 5%;
+    position: relative;
+}
+
+.hobbyvid{
+    border-radius: 25px;
+    width: 80%;
+    left: 10%;
+    position: relative;
+}
+
+.icon{
+    background-color: #bbba8a;
+    border-radius: 25px;
+    padding: 5px;
+    margin: 15px;
+
+    width: 45%;
+    left: 50%;
+    position: relative;
+}
+
+iframe{
+    border-radius: 25px;
+}
+
+.mainResumeBody{
+    font-family: cascadia code;
+    height: 200vh;
+    width: 90%;
+    background-color: #fff;
+
+    left: 5%;
+    position: relative;
+}
+
+.resumeSidebar{
+    background-color: #313a85;
+
+    height: 100%;
+    width: 35%;
+    
+
+    left: 0%;
+    position: absolute;
+}
+
+.stivkysidebar{
+    position: fixed;
+    left: 10%;
+}
+
+.resumeRightside{
+    width: 60%;
+    padding-left: 3%;
+
+    left: 33%;
+    position: relative;
+}
+
+.resumeheadings{
+    background-color: #313a85;
+}
+
+.prosummary{
+    left: 5%;
+    position: relative;
+}
+
+.resumelist1{
+    left: 5%;
+    position: relat
+}
+
+.resumelist2{
+
+}
+
+.resexperienceinfo{
+
+}
+
+.subjectsgained{
+
+}
+
+.storylink{
+    width: 20%;
+    background-color: #bbba8a;
+
+    margin: 20px;
+}
+
+
+.storybutton{
+    height: 20%;
+    width: 35%;
+
+    background-color: #fff;
+    border-radius: 25px;
+}
+
+.homemainbody{
+    padding: 17px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    position: relative;
+    display: inline-block;
+    width: 90%;
+    height: 535vh;
+    left: 5%;
+    background-color: rgba(199, 197, 197, 0.188); 
+    backdrop-filter: blur(10px); 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    align-items: center;
+}
+
+.storybody{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    display: inline-block;
+    width: 90%;
+    height: 250vh;
+    left: 5%;
+    background-color: rgba(199, 197, 197, 0.188); 
+    backdrop-filter: blur(10px); 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.bottomstorybody{
+    margin-top: 20px;
+    padding: 15px;
+    margin-bottom: 20px;
+    position: relative;
+    display: inline-block;
+    width: 90%;
+    height: 75vh;
+    left: 5%;
+    background-color: rgba(199, 197, 197, 0.188); 
+    backdrop-filter: blur(10px); 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.main_content{
+    padding: 17px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    position: relative;
+    display: inline-block;
+    width: 90%;
+    height: 230vh;
+    left: 5%;
+    background-color: rgba(199, 197, 197, 0.188); 
+    backdrop-filter: blur(10px); 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    align-items: center;
+}
+
+.mainpersonality{
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    position: relative;
+    display: inline-block;
+    width: 90%;
+    height: 260vh;
+    left: 5%;
+    background-color: rgba(199, 197, 197, 0.188); 
+    backdrop-filter: blur(10px); 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    align-items: center;
+}
+
+.underResume{
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    position: relative;
+    display: inline-block;
+    width: 90%;
+    height: 43vh;
+    left: 5%;
+    background-color: rgba(199, 197, 197, 0.188); 
+    backdrop-filter: blur(10px); 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    align-items: center;
+}
+
+
+.websitedesign{
+    width: 45%;
+    background-color: #bbba8a;
+    border-radius: 25px;
+
+    left: 5%;
+    position: relative;
+    padding: 5px;
+    margin: 5px;
+}
+
+.storyimg{
+    margin: 5px;
+}
+
+
+.profesionaldesign{
+    width: 45%;
+    background-color: #bbba8a;
+    border-radius: 25px;
+
+    left: 45%;
+    position: relative;
+    padding: 5px;
+    margin: 5px;
+}
+
+.personaldesign{
+    width: 45%;
+    background-color: #bbba8a;
+    border-radius: 25px;
+
+    left: 5%;
+    position: relative;
+    padding: 5px;
+    margin: 5px;
+}
+
+.homeimg{
+    width: 550px;
+    height: 400px;
+    margin: 10px;
+}
+
+.RGDimages{
+    display: flex;
+}
+.RGDimages{
+    margin: auto;
+}
+
+.parents{
+    display: flex;
+}
+
+.Joseimgs{
+    display: flex;
+}
+
+.biodata{
+    position: relative;
+    left: 35%;
+}
+
+.storylink{
+    left: 40%;
+    position: relative;
+}
+
+.mother{
+    width: 40%;
+}
+
+.father{
+    width: 40%;
+}
+
+.parentphoto{
+    width: 60%;
+    height: 70%;
+
+    left: 20%;
+    position: relative;
+}
+
+.parentinfo{
+    left: 20%;
+    position: relative;
+}
+
+img{
+    border-radius: 25px;
+}
+
+
+
+
